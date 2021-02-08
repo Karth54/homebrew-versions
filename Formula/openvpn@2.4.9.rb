@@ -38,7 +38,7 @@ class OpenvpnAT249 < Formula
     (etc/"openvpn").install doc/"samples/sample-config-files/server.conf"
 
     # We don't use mbedtls, so this file is unnecessary & somewhat confusing.
-    rm doc/"README.mbedtls"
+    # rm doc/"README.mbedtls"
   end
 
   def post_install
