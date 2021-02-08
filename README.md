@@ -5,7 +5,7 @@
 
 Or `brew tap Karth54/versions` and then `brew install <formula>`.
 
-Example, to install the latest version of `openvpn` 0.20:
+Example, to install version 2.4.9 of `openvpn`:
 ```
 brew install Karth54/versions/openvpn@2.4.9
 ```
